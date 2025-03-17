@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "title": "Top 10 ES6 Features You Must Know",
+      "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+      "author": "Hamza Sohail",
+      "posted_date": "Mar 14 (4 Days ago)",
+      "reading_time": 5,
+      "hashtags": ["beginners", "es6"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/example/2.jpg",
+      "title": "Understanding Async/Await in JavaScript",
+      "author_img": "https://i.ibb.co/example/boy2.png",
+      "author": "Aisha Khan",
+      "posted_date": "Mar 17 (Today)",
+      "reading_time": 7,
+      "hashtags": ["javascript", "async", "beginners"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/example/3.jpg",
+      "title": "CSS Grid vs Flexbox: Which One Should You Use?",
+      "author_img": "https://i.ibb.co/example/girl1.png",
+      "author": "Priya Sharma",
+      "posted_date": "Mar 15 (2 Days ago)",
+      "reading_time": 6,
+      "hashtags": ["css", "grid", "flexbox"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/example/4.jpg",
+      "title": "Mastering React Hooks in 2025",
+      "author_img": "https://i.ibb.co/example/boy3.png",
+      "author": "Rahul Verma",
+      "posted_date": "Mar 16 (Yesterday)",
+      "reading_time": 8,
+      "hashtags": ["react", "hooks", "advanced"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/example/5.jpg",
+      "title": "Node.js: How to Build a REST API from Scratch",
+      "author_img": "https://i.ibb.co/example/boy4.png",
+      "author": "Sara Malik",
+      "posted_date": "Mar 12 (5 Days ago)",
+      "reading_time": 10,
+      "hashtags": ["nodejs", "api", "backend"]
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co/example/6.jpg",
+      "title": "10 Tips for Writing Clean JavaScript Code",
+      "author_img": "https://i.ibb.co/example/girl2.png",
+      "author": "Rohan Das",
+      "posted_date": "Mar 10 (7 Days ago)",
+      "reading_time": 4,
+      "hashtags": ["javascript", "clean code", "best practices"]
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co/example/7.jpg",
+      "title": "How to Deploy React Apps to Vercel",
+      "author_img": "https://i.ibb.co/example/boy5.png",
+      "author": "Fatima Noor",
+      "posted_date": "Mar 18 (Tomorrow)",
+      "reading_time": 6,
+      "hashtags": ["react", "deployment", "vercel"]
+    },
+    {
+      "id": 8,
+      "cover": "https://i.ibb.co/example/8.jpg",
+      "title": "MongoDB Basics: A Beginner’s Guide",
+      "author_img": "https://i.ibb.co/example/boy6.png",
+      "author": "Arjun Mehta",
+      "posted_date": "Mar 13 (3 Days ago)",
+      "reading_time": 7,
+      "hashtags": ["mongodb", "database", "backend"]
+    },
+    {
+      "id": 9,
+      "cover": "https://i.ibb.co/example/9.jpg",
+      "title": "Building a Responsive Website with Tailwind CSS",
+      "author_img": "https://i.ibb.co/example/girl3.png",
+      "author": "Meera Kapoor",
+      "posted_date": "Mar 11 (6 Days ago)",
+      "reading_time": 5,
+      "hashtags": ["tailwind", "css", "responsive"]
+    },
+    {
+      "id": 10,
+      "cover": "https://i.ibb.co/example/10.jpg",
+      "title": "Introduction to TypeScript for JavaScript Developers",
+      "author_img": "https://i.ibb.co/example/boy7.png",
+      "author": "Vikram Singh",
+      "posted_date": "Mar 17 (Today)",
+      "reading_time": 9,
+      "hashtags": ["typescript", "javascript", "frontend"]
+    }
+  ]
+  
