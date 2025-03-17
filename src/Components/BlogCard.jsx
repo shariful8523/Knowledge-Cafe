@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { FaBookmark } from "react-icons/fa6";
 
-const BlogCard = ({ blog }) => {
+const BlogCard = ({ blog , handeladdBookmark}) => {
   const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
 
   return (
-    <div className="max-w-xl bg-white rounded-lg shadow-md overflow-hidden border mb-5 ml-40 mt-10">
+    <div className=" bg-white rounded-lg shadow-md overflow-hidden border mb-5 h-auto mt-10">
       {/* Cover Image */}
       <div className="w-full">
         <img src={cover} alt={title} className="w-full h-52 object-cover" />
@@ -14,13 +15,21 @@ const BlogCard = ({ blog }) => {
       {/* Blog Content */}
       <div className="p-4">
         {/* Author Info */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center ">
           <img src={author_img} alt={author} className="w-10 h-10 rounded-full object-cover" />
-          <div>
+          <div className="ml-5">
             <p className="text-sm font-semibold">{author}</p>
             <p className="text-xs text-gray-500">{posted_date}</p>
           </div>
-          <span className="  text-xs text-gray-500">{reading_time} min read</span>
+             
+             <div className="ml-80">
+                <span className="  text-xl text-gray-500">{reading_time} min read</span>
+                   <button onClick={()=> handeladdBookmark(blog)} className="ml-3"><FaBookmark />
+                   </button>
+             </div>
+
+
+          
         </div>
 
         {/* Title */}
