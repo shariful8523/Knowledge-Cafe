@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { FaBookmark } from "react-icons/fa6";
 
-const BlogCard = ({ blog , handeladdBookmark}) => {
+const BlogCard = ({ blog , handeladdBookmark, handeladdMark}) => {
   const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
 
   return (
@@ -43,7 +43,7 @@ const BlogCard = ({ blog , handeladdBookmark}) => {
         </div>
 
         {/* Mark as Read */}
-        <p className="mt-3 text-blue-600 text-sm cursor-pointer hover:underline">Mark as read</p>
+        <button onClick={()=> handeladdMark(reading_time)} className="mt-3 text-blue-600 text-sm cursor-pointer hover:underline">Mark as read</button>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BlogCard from './BlogCard';
 
-const Blogs = ({handeladdBookmark}) => {
+const Blogs = ({handeladdBookmark, handeladdMark}) => {
     const [Blogss, SetBlogss] = useState([]);
 
     useEffect(() => {
@@ -23,6 +23,7 @@ const Blogs = ({handeladdBookmark}) => {
                 
                 key={blog.id} blog={blog}
                 handeladdBookmark={handeladdBookmark}
+                handeladdMark={handeladdMark}
                 
                 
                 > 
